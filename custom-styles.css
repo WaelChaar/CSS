@@ -3,14 +3,19 @@
     --palette-core-primary: #ff4f30;
 }
 
-.First1to5,
-.Second1to5,
-.Third1to5,
-.Fourth1to5,
-.LTR,
 .starsrating {
   display: flex !important;
   justify-content: center !important;
   align-items: center !important;
   text-align: center !important;
+}
+
+.starsrating > div {
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.starsrating > div > div {
+  display: flex !important;
+  justify-content: center !important;
 }

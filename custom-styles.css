@@ -7,9 +7,11 @@
   --palette-group-mark-background: #ff4f30; /* background when selected */
 }
 
-._1De-hWu2XrYnO5hnFIWYwJ.surveyBtn.surveyBtn_close {
+.page-2 #survey-wrapper > form > footer > div._207sw0FPxzBQQBPqaDdUpd._2M4TF5Rxgvio1UclfnYMTm._2oEpWcfZnCvjbVRDL7a213._1wsMeNP_TDIxNDJlja6xcv > div:nth-child(2) > button,
+.page-3 #survey-wrapper > form > footer > div._207sw0FPxzBQQBPqaDdUpd._2M4TF5Rxgvio1UclfnYMTm._2oEpWcfZnCvjbVRDL7a213._1wsMeNP_TDIxNDJlja6xcv > div:nth-child(2) > button,
+.page-4 #survey-wrapper > form > footer > div._207sw0FPxzBQQBPqaDdUpd._2M4TF5Rxgvio1UclfnYMTm._2oEpWcfZnCvjbVRDL7a213._1wsMeNP_TDIxNDJlja6xcv > div:nth-child(2) > button,
+.page-5 #survey-wrapper > form > footer > div._207sw0FPxzBQQBPqaDdUpd._2M4TF5Rxgvio1UclfnYMTm._2oEpWcfZnCvjbVRDL7a213._1wsMeNP_TDIxNDJlja6xcv > div:nth-child(2) > button {
   display: block !important;
   margin-left: auto !important;
   margin-right: auto !important;
-  text-align: center !important;
 }

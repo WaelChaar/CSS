@@ -3,4 +3,15 @@
     --palette-core-primary: #ff4f30;
 }
 
+/* Centering each answer set by escaped class name */
+[class="First 1 to 5"],
+[class="Second 1 to 5"],
+[class="Third 1 to 5"],
+[class="Fourth 1 to 5"],
+[class="LTR"] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 

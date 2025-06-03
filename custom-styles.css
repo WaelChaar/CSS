@@ -1,14 +1,6 @@
-:root {
-  --powered-by-display: none;
-}
 
 :root {
-  --palette-group-inner-mark: #FFFFFF; /* checkmark or radio dot */
-  --palette-group-mark-background: #ff4f30; /* background when selected */
+    --palette-core-primary: #ff4f30;
 }
 
-#survey-wrapper > form > footer > div._207sw0FPxzBQQBPqaDdUpd._2M4TF5Rxgvio1UclfnYMTm._2oEpWcfZnCvjbVRDL7a213._1wsMeNP_TDIxNDJlja6xcv > div:nth-child(2) > button {
-  display: block !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-}
+

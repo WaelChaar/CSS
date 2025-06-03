@@ -1,5 +1,8 @@
-
+:root {
+  --powered-by-display: none;
+}
 
 :root {
-      --palette-core-primary: #ff4f30;
+  --palette-group-inner-mark: #FFFFFF; /* checkmark or radio dot */
+  --palette-group-mark-background: #ff4f30; /* background when selected */
 }

@@ -6,3 +6,9 @@
   --palette-group-inner-mark: #FFFFFF; /* checkmark or radio dot */
   --palette-group-mark-background: #ff4f30; /* background when selected */
 }
+
+._1De-hWu2XrYnO5hnFIWYwJ.surveyBtn.surveyBtn_close {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

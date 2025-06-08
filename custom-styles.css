@@ -1,7 +1,7 @@
 :root {
   --palette-core-primary: #F9C94E;
   --typography-fontFamily: 'Open Sans', sans-serif;
-  --palette-rating-number-selected: #F9C94E;
+  --palette-rating-number-selected: #ff4f4d
   --palette-rating-custom-selected: #F9C94E;
   --survey-footer-buttons-justify: center;
   --powered-by-display: none;

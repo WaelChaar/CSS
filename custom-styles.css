@@ -1,16 +1,7 @@
-
 :root {
-    --palette-core-primary: #ff4f30;
-}
-
-.First1to5,
-.Second1to5,
-.Third1to5,
-.Fourth1to5,
-.LTR,
-.starsrating {
-  display: flex !important;
-  justify-content: center !important;
-  align-items: center !important;
-  text-align: center !important;
+  --palette-core-primary: #F9C94E;
+  --typography-fontFamily: 'Open Sans', sans-serif;
+  --palette-rating-number-selected: #F9C94E;
+  --palette-rating-custom-selected: #F9C94E;
+  --survey-footer-buttons-justify: center;
 }

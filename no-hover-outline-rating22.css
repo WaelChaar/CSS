@@ -1,0 +1,11 @@
+:root {
+  --powered-by-display: none;
+  --palette-rating-number-hover: transparent;
+  --palette-rating-number-fill: transparent;
+  --palette-rating-custom-hover: transparent;
+  --palette-rating-custom-fill: transparent;
+  --palette-rating-number-selected: #ff4f4d;
+  --palette-rating-custom-selected: #ff4f4d;
+  --palette-rating-custom-outline: transparent;
+  --palette-rating-custom-selected-outline: transparent;
+}

@@ -1,0 +1,73 @@
+:root {
+  --powered-by-display: none;
+  --palette-rating-number-hover: transparent;
+  --palette-rating-number-fill: transparent;
+  --palette-rating-custom-hover: transparent;
+  --palette-rating-custom-fill: transparent;
+  --palette-core-primary: transparent;
+
+  /* tighten vertical gaps between questions */
+  --questions-spacing: 20px;
+}
+
+@font-face {
+  font-family: 'Geomanist';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://raw.githubusercontent.com/AmabroukNM/NewMetrics/main/geomanist-regular-webfont.woff) format('woff2');
+}
+
+/* Center question text */
+.CSATRating,
+.LTR,
+.Comment { text-align: center !important; }
+
+/* Center answer groups (stars / NPS pills) */
+.CSATRating > div,
+.LTR > div,
+.Comment > div {
+  display: inline-block;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* Extra help for common inner containers */
+.CSATRating [role="radiogroup"],
+.LTR [role="radiogroup"],
+.CSATRating .answers,
+.LTR .answers {
+  display: inline-flex !important;
+  justify-content: center !important;
+}
+
+/* Center the comment control itself */
+.Comment textarea,
+.Comment input[type="text"],
+.Comment .field,
+.Comment .text {
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* Logo size + centering */
+.Logo img,
+.Logo > div > img,
+.Logo * img {
+  max-width: 45% !important;
+  height: auto !important;
+  display: block !important;
+  margin: 0 auto !important;
+}
+
+/* Hide the X button */
+.surveyX { display: none !important; }
+
+/* Palette tweaks scoped to your classes */
+.CSATRating {
+  --palette-rating-custom-selected: #fac847; /* stars/emoticons active fill */
+}
+.myRatingsClass {
+  --palette-rating-number-selected: #396bf8; /* NPS selected pill color */
+}

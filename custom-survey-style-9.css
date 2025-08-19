@@ -1,0 +1,88 @@
+:root {
+  --powered-by-display: none;
+  --palette-rating-number-hover: transparent;
+  --palette-rating-number-fill: transparent;
+  --palette-rating-custom-hover: transparent;
+  --palette-rating-custom-fill: transparent;
+  --palette-core-primary: transparent;
+
+  /* tighten vertical gaps between questions */
+  --questions-spacing: 20px;
+}
+
+@font-face {
+  font-family: 'Geomanist';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://raw.githubusercontent.com/AmabroukNM/NewMetrics/main/geomanist-regular-webfont.woff) format('woff2');
+}
+
+/* Center question text */
+.CSATRating,
+.LTR,
+.Comment { 
+  text-align: center !important; 
+}
+
+/* --- CSAT (keep centered with inline-block) --- */
+.CSATRating > div {
+  display: inline-block;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.CSATRating [role="radiogroup"],
+.CSATRating .answers {
+  display: inline-flex !important;
+  justify-content: center !important;
+}
+
+/* --- LTR (label centered, answer set full width) --- */
+.LTR > div {
+  display: block !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+.LTR [role="radiogroup"],
+.LTR .answers {
+  display: block !important;
+  justify-content: flex-start !important; /* revert to normal */
+}
+
+/* --- Comment (label centered, textbox full width) --- */
+.Comment > div {
+  display: block !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+.Comment textarea,
+.Comment input[type="text"],
+.Comment .field,
+.Comment .text {
+  display: block !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  text-align: left !important;
+}
+
+/* Logo size + centering */
+.Logo img,
+.Logo > div > img,
+.Logo * img {
+  max-width: 45% !important;
+  height: auto !important;
+  display: block !important;
+  margin: 0 auto !important;
+}
+
+/* Hide the X button */
+.surveyX { display: none !important; }
+
+/* Palette tweaks scoped to your classes */
+.CSATRating {
+  --palette-rating-custom-selected: #fac847; /* stars/emoticons active fill */
+}
+.LTR {
+  --palette-rating-number-selected: #396bf8; /* NPS selected pill color */
+}

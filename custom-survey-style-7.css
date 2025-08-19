@@ -1,0 +1,56 @@
+
+:root {
+  --powered-by-display: none;
+  --palette-rating-number-hover: transparent;
+  --palette-rating-number-fill: transparent;
+  --palette-rating-custom-hover: transparent;
+  --palette-rating-custom-fill: transparent;
+  --palette-rating-number-selected: #ff4f4d;
+  --palette-rating-custom-selected: #ff4f4d;
+  --palette-core-primary: transparent;
+  --questions-spacing: 20px;
+}
+
+@font-face {
+  font-family: Geomanist;
+  src: url(https://raw.githubusercontent.com/AmabroukNM/NewMetrics/main/geomanist-regular-webfont.woff)
+       format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --typography-fontFamily: Geomanist;
+}
+
+/* Centering */
+.CSATRating { text-align: center !important; }
+.CSATRating > div { display: inline-block; }
+.LTR { text-align: center !important; }
+.Comment { text-align: center !important; }
+
+/* Logo size */
+.Logo > div > img {
+  max-width: 45% !important;
+}
+
+/* Hide close “X” */
+.surveyX {
+  display: none !important;
+}
+
+/* Visuals: stars/emoticons */
+.CSATRating {
+  --palette-action-hover: #396bf8;                /* outline on hover/focus */
+  --palette-rating-custom-hover: #396bf8;         /* hover color for stars/emoticons */
+  --palette-rating-custom-selected: #fac847;      /* active color for stars/emoticons */
+  --palette-rating-custom-selected-outline: #fac847; /* selected outline */
+}
+
+/* Visuals: numeric rating (NPS, etc.) */
+.myRatingsClass {
+  --palette-rating-number-hover: #fac847;         /* hover outline for numbers */
+  --palette-rating-number-selected: #396bf8;      /* selected number color */
+  --palette-rating-number-fill-hover: #fac847;    /* fill on hover for numbers */
+}
